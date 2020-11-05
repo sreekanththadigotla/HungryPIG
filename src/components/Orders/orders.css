@@ -1,0 +1,116 @@
+.MainCardScroll {
+  /* height: 100vh; */
+  overflow-y: scroll;
+  padding: 5px;
+  margin: 0 auto;
+}
+
+.MainCardScroll::-webkit-scrollbar {
+  width: 0%;
+  color: transparent;
+}
+.mainCard {
+  margin: 0 auto;
+  width: 35%;
+  background-color: rgb(250, 250, 250);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 10px;
+  box-shadow: 0px 0px 2px 0px rgb(192, 192, 192);
+  color: rgb(78, 76, 76);
+  position: relative;
+}
+
+.Loads {
+  position: absolute;
+  background-color: rgba(255, 255, 255, 0.664);
+  text-align: center;
+  vertical-align: middle;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+  top: 0%;
+  left: 0%;
+  right: 0%;
+  bottom: 0%;
+}
+
+@media screen and (max-width: 950px) {
+  .mainCard {
+    width: 50%;
+  }
+}
+@media screen and (max-width: 600px) {
+  .mainCard {
+    width: 60%;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .mainCard {
+    width: 80%;
+  }
+}
+@media screen and (max-width: 300px) {
+  .mainCard {
+    width: 90%;
+  }
+}
+
+.mainCard__Left {
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.mainCard__Left > span {
+  padding: 0.6rem 0.5rem;
+}
+
+.mainCard__Right {
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.mainCard__Right > span {
+  padding: 0.6rem 0.5rem;
+}
+
+.area {
+  font-size: 1rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.times {
+  font-size: 0.8rem;
+  padding-top: 0.2rem;
+}
+.price {
+  font-size: 1rem;
+  letter-spacing: 0.8px;
+}
+
+.remove {
+  font-size: 0.8rem;
+  background-color: skyblue;
+  padding: 0.6rem 0.9rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  border-radius: 2px;
+  cursor: pointer;
+}
+
+.orderCentre {
+  /* background-color: green; */
+  margin: 0 auto;
+  padding: 5px;
+  text-align: center;
+}

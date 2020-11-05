@@ -1,0 +1,89 @@
+.Login {
+  /* background-color: rgba(238, 221, 69, 0.753); */
+  position: relative;
+  margin: 0 auto;
+
+  flex: 1;
+  /* height: 50%; */
+  /* border: 5px solid rgba(189, 243, 238, 0.404); */
+  padding: 5rem 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  /* box-shadow: 0px 0px 5px 0px rgb(77, 73, 73); */
+}
+
+@media screen and (max-width: 750px) {
+  .Login {
+    width: 60%;
+  }
+}
+@media screen and (max-width: 500px) {
+  .Login {
+    width: 70%;
+  }
+}
+@media screen and (max-width: 400px) {
+  .Login {
+    width: 80%;
+  }
+}
+.authStatus {
+  color: #a70707;
+  font-size: 1rem;
+  letter-spacing: 1px;
+}
+
+.lbutton,
+.sbutton {
+  width: 42%;
+  font-size: 1rem;
+  padding: 0.5em;
+  margin: 0.5em;
+  border-radius: 10px;
+  outline: transparent;
+  border: transparent;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.lbutton {
+  background-color: #a70707;
+  border: 1px solid orange;
+  color: white;
+  box-shadow: 0px 0px 6px 1px rgb(244, 244, 245);
+  transition: all 0.2s;
+  cursor: pointer;
+}
+.lbutton:active {
+  box-shadow: 0px 0px 2px 0.5px rgb(238, 238, 240);
+}
+
+.sbutton {
+  background-color: white;
+  border: 1px solid rgba(238, 235, 61, 0.699);
+  color: #a70707;
+  transition: all 0.2s;
+  box-shadow: 0px 0px 6px 1px rgb(250, 250, 250);
+  cursor: pointer;
+}
+.sbutton:active {
+  box-shadow: 0px 0px 2px 0.5px rgb(247, 247, 247);
+}
+
+.inputBox {
+  height: 100%;
+  padding: 1rem;
+  /* background-color: brown; */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  width: 60%;
+}
+@media screen and (max-width: 750px) {
+  .inputBox {
+    width: 80%;
+  }
+}
